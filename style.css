@@ -309,23 +309,27 @@ footer {
   font-weight: 700;
 }
 
-/* Force Research Gallery to 4 columns */
+/* Research Highlights */
+
 #research .research-gallery {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: 25px !important;
-  justify-content: center !important;
-  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+  max-width: 1200px;
+  margin: 30px auto 0 auto;
 }
 
 #research .research-gallery img {
-  width: 260px !important;
-  height: 170px !important;
-  object-fit: contain !important;
+  width: 100%;
+  height: 180px;
+
+  object-fit: contain;
 
   border: 1px solid #ddd;
-  border-radius: 10px;
+  border-radius: 8px;
   background: white;
   padding: 8px;
-  display: block;
+
+  box-sizing: border-box;
 }
