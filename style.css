@@ -308,3 +308,18 @@ footer {
 .pub-list strong {
   font-weight: 700;
 }
+/* Research Gallery */
+
+.research-gallery {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 25px;
+margin-top: 30px;
+}
+
+.research-gallery img {
+width: 100%;
+border-radius: 10px;
+border: 1px solid #ddd;
+display: block;
+}
