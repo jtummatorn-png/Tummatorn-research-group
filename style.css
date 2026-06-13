@@ -312,17 +312,19 @@ footer {
 /* Force Research Gallery to 4 columns */
 #research .research-gallery {
   display: grid !important;
-  grid-template-columns: repeat(4, 340px) !important;
-  gap: 30px !important;
-  justify-content: center !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 25px !important;
   margin-top: 30px;
 }
 
 #research .research-gallery img {
-  width: 320px !important;
-  height: auto !important;
+  width: 100% !important;
+  height: 180px !important;
+  object-fit: contain !important;
 
   border: 1px solid #ddd;
   border-radius: 10px;
   background: white;
+  padding: 8px;
+  display: block;
 }
