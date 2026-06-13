@@ -308,16 +308,20 @@ footer {
 .pub-list strong {
   font-weight: 700;
 }
+.research-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+  justify-items: center;
+}
 .research-gallery img {
-  width: 350px;
-  height: 220px;
-
+  width: 280px;
+  height: 180px;
   object-fit: contain;
-
-  margin: 0 auto;
-  display: block;
 
   border: 1px solid #ddd;
   border-radius: 10px;
   background: white;
+  padding: 10px;
 }
