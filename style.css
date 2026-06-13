@@ -329,3 +329,23 @@ padding: 8px;
 
 display: block;
 }
+/* Force Research Gallery to 4 columns */
+
+#research .research-gallery {
+  display: grid !important;
+  grid-template-columns: repeat(4, 180px) !important;
+  gap: 20px !important;
+  justify-content: center !important;
+  margin-top: 30px;
+}
+
+#research .research-gallery img {
+  width: 180px !important;
+  height: 120px !important;
+  object-fit: contain !important;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: white;
+  padding: 8px;
+  display: block;
+}
