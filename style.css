@@ -153,3 +153,65 @@ footer {
   margin-bottom: 30px;
   line-height: 1.8;
 }
+/* Better People Page */
+
+.people-hero {
+  padding: 90px 60px;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+.people-hero h1 {
+  font-size: 52px;
+  margin-bottom: 10px;
+}
+
+.people-section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 40px;
+}
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-bottom: 70px;
+}
+
+.person-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 28px;
+  text-align: center;
+  min-height: 430px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+.person-card img {
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.person-card h3 {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.person-card p {
+  font-size: 15px;
+  line-height: 1.45;
+  margin: 12px 0;
+}
+
+.alumni-list {
+  background: #fafafa;
+  border-left: 4px solid #111;
+  padding: 20px 30px;
+  line-height: 1.8;
+}
