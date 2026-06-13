@@ -312,23 +312,23 @@ footer {
 /* Research Highlights */
 
 #research .research-gallery {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 35px;   /* เพิ่มระยะห่าง */
-  margin-top: 30px;
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 25px !important;
+  margin-top: 30px !important;
 }
 
 #research .research-gallery img {
-  width: 200px;
-  height: 130px;
+  width: 160px !important;
+  height: 110px !important;
 
-  object-fit: contain;
+  object-fit: contain !important;
 
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background: white;
-  padding: 8px;
+  border: 1px solid #ddd !important;
+  border-radius: 8px !important;
+  background: white !important;
+  padding: 8px !important;
 
-  display: block;
-  margin: 0 auto;
+  display: block !important;
+  margin: 0 auto !important;
 }
