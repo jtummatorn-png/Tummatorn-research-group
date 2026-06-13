@@ -125,3 +125,31 @@ footer {
 .pub-number {
   font-weight: bold;
 }
+.people-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.person-card {
+  width: 250px;
+  text-align: center;
+}
+
+.person-card img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.person-card h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.alumni-list {
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
