@@ -36,21 +36,33 @@ nav a:hover {
 }
 
 .hero {
-  padding: 120px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 100px 80px;
+
   background: #111;
   color: white;
-  text-align: center;
 }
 
-.hero h1 {
-  font-size: 56px;
+.hero-text {
+  flex: 1;
 }
 
-.hero p {
+.hero-text h1 {
+  font-size: 60px;
+}
+
+.hero-text p {
+  font-size: 24px;
   color: #ccc;
-  font-size: 22px;
 }
 
+.hero-image img {
+  width: 450px;
+  border-radius: 12px;
+}
 section {
   padding: 70px 90px;
 }
