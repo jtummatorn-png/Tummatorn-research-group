@@ -345,3 +345,35 @@ footer {
   border-radius: 10px;
   border: 1px solid #ddd;
 }
+.pi-profile {
+display: flex;
+gap: 40px;
+align-items: flex-start;
+margin-bottom: 60px;
+}
+
+.pi-profile img {
+width: 280px;
+border-radius: 12px;
+}
+
+.pi-info {
+flex: 1;
+font-size: 15px;
+line-height: 1.6;
+}
+
+.pi-info h3 {
+margin-top: 0;
+}
+
+.pi-info h4 {
+margin-top: 25px;
+margin-bottom: 10px;
+border-bottom: 1px solid #ddd;
+padding-bottom: 5px;
+}
+
+.pi-info ul {
+padding-left: 20px;
+}
