@@ -390,16 +390,3 @@ padding-bottom: 5px;
 .pi-info ul {
 padding-left: 20px;
 }
-.pub-image {
-  list-style: none;
-  text-align: center;
-  margin: 20px 0;
-}
-
-.pub-image .pub-img {
-  display: block;
-  width: 300px !important;
-  max-width: 100% !important;
-  height: auto !important;
-  margin: 0 auto;
-}
