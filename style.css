@@ -30,7 +30,19 @@ nav a {
   color: #111;
   font-weight: bold;
 }
+.group-photo-section{
+    width:100%;
+    margin:40px 0;
+    text-align:center;
+}
 
+.group-photo{
+    width:90%;
+    max-width:1200px;
+    height:auto;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+}
 nav a:hover {
   border-bottom: 2px solid #111;
 }
