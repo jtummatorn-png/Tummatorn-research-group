@@ -30,7 +30,19 @@ nav a {
   color: #111;
   font-weight: bold;
 }
+.group-photo-section{
+    width:100%;
+    margin:40px 0;
+    text-align:center;
+}
 
+.group-photo{
+    width:90%;
+    max-width:1200px;
+    height:auto;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+}
 nav a:hover {
   border-bottom: 2px solid #111;
 }
@@ -39,8 +51,9 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   padding: 100px 80px;
-  padding-bottom: 15px;
+
   background: #111;
   color: white;
 }
@@ -63,7 +76,6 @@ nav a:hover {
   opacity: 0.85;
   border-radius: 12px;
 }
-
 section {
   padding: 70px 90px;
 }
@@ -138,7 +150,6 @@ footer {
 .pub-number {
   font-weight: bold;
 }
-
 .people-grid {
   display: flex;
   flex-wrap: wrap;
@@ -167,7 +178,6 @@ footer {
   margin-bottom: 30px;
   line-height: 1.8;
 }
-
 /* Better People Page */
 
 .people-hero {
@@ -201,7 +211,7 @@ footer {
   padding: 28px;
   text-align: center;
   min-height: 430px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
 }
 
 .person-card img {
@@ -230,9 +240,7 @@ footer {
   padding: 20px 30px;
   line-height: 1.8;
 }
-
 /* Publications page */
-
 .pub-hero {
   padding: 90px 60px;
   background: #111;
@@ -280,7 +288,6 @@ footer {
 .pub-list em {
   font-style: italic;
 }
-
 /* ===== Publications Page ===== */
 
 .pub-hero {
@@ -339,15 +346,17 @@ footer {
 #research .research-gallery img {
   width: 160px !important;
   height: 110px !important;
+
   object-fit: contain !important;
+
   border: 1px solid #ddd !important;
   border-radius: 8px !important;
   background: white !important;
   padding: 8px !important;
+
   display: block !important;
   margin: 0 auto !important;
 }
-
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -361,51 +370,43 @@ footer {
   border-radius: 10px;
   border: 1px solid #ddd;
 }
-
 .pi-profile {
-  display: flex;
-  gap: 40px;
-  align-items: flex-start;
-  margin-bottom: 60px;
+display: flex;
+gap: 40px;
+align-items: flex-start;
+margin-bottom: 60px;
 }
 
 .pi-profile img {
-  width: 280px;
-  border-radius: 12px;
+width: 280px;
+border-radius: 12px;
 }
 
 .pi-info {
-  flex: 1;
-  font-size: 15px;
-  line-height: 1.6;
+flex: 1;
+font-size: 15px;
+line-height: 1.6;
 }
 
 .pi-info h3 {
-  margin-top: 0;
+margin-top: 0;
 }
 
 .pi-info h4 {
-  margin-top: 25px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 5px;
+margin-top: 25px;
+margin-bottom: 10px;
+border-bottom: 1px solid #ddd;
+padding-bottom: 5px;
 }
 
 .pi-info ul {
-  padding-left: 20px;
+padding-left: 20px;
 }
-
-/* Group Photo */
-
-.group-photo {
-  width: 30%;
-  max-width: 900px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px;
-}
-
-.group-photo-section {
-  margin-top: 0;
+.group-photo{
+    width:50%;
+    max-width:900px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+    border-radius:10px;
 }
